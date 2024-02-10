@@ -1,0 +1,221 @@
+/*
+Theme Name: BasicX Theme
+Theme URI: https://softclimax.com/
+Author: softclimax
+Author URI: https://softclimax.com/ 
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: BasicXthemes
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*Selector Update*/
+body {
+	overflow-x: hidden;
+	margin: 0;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;	
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight:600;
+	color: darkslategray;	
+}
+
+.carousel-item-one {
+	background-image: assets/img/imgs.jpg;
+	background-position: fixed;		
+
+}	
+.slider {
+	/*background-image: assets/img/imgs.jpg;
+	background-position: fixed;		*/
+
+}	
+
+.navbar-brand{
+	background-image: assets/img/logo.gif;
+}
+.nav-link{
+	/* font-family: 'Times New Roman', Times, serif; */
+	text-transform: uppercase;
+	font-weight: 600;
+	color: var(--bs-primary);
+	font-size: 14px;
+}
+
+
+/*Selector with Custom Selector*/
+.fa-brands{
+font-size: 50px;
+}
+.service_des i, .fas, .fab {
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom:5px ;
+	margin-left: auto;
+	width: 100%;
+	color: blue;
+}
+ .fasContact {
+	font-weight: 900;
+	font-size: 20px;
+	text-align: center;
+	margin-left: auto;
+	width: 100%;
+}
+
+.service_des .fa, .fas:hover {
+	font-weight: 900;
+	text-align: center;
+	margin-bottom:5px ;
+	margin-left: auto;
+	width: 100%;
+	color: orange;
+	cursor: pointer;
+}
+
+/*Custom Selector*/
+
+.heading {
+	text-transform: none;
+	font-weight: bolder;
+	color:#000;
+}
+
+.service_des h4 {
+	font-weight: 500;
+	text-align: center;
+	margin-bottom:5px ;
+	margin-left: auto;
+	width: 100%;
+	color: black;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.service_des p {
+	font-family: ;
+	line-height: normal;
+	font-weight: 500;
+	text-align: justify;
+	margin-bottom:5px ;
+	margin-left: auto;
+}
+
+.service_des {
+	margin-bottom: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+.our_services{
+	margin-top: 10px;
+	/*background-image: url(assets/img/service_bg.jpg);*/
+	background-repeat: none;
+	background-attachment: fixed;
+	background-size: cover;
+	/*/*#eceff1*/ ;*/
+	color: #000;
+}
+
+.blur {
+padding-top:50px ;
+	/*background: rgba(200, 200, 200, 0.25);*/
+	background: #eceff199 ;
+}
+
+/*change heading after hovering icon*/
+.our_services i:hover h4 {
+	color: orange;
+}
+
+
+.usp{
+	border: 1px solid transparent;
+	border-radius: 15px;
+	min-height: 350px;
+	box-shadow: 1px 1px 5px #d1d1d1;
+	background-color: white;
+	transition: 200ms;
+}
+.usp:hover .fas, .usp:hover p, .usp:hover .fab {
+	
+}
+
+
+.usp:hover{
+	box-shadow: 1px 1px 5px #d1d1d1;
+	background-color: #eceff199;
+	color: black;
+	transform: scale(1.2rem);
+}
+
+
+.usp p{
+	
+	font-size: 14px;
+	line-height: 2; 		
+	padding: 5px !important;
+}
+
+.usp_card{
+	min-height: 400px;
+}
+.hero{
+	background-image: url(assets/img/hero-bg-1.jpg);
+	background-size: cover;
+	min-height: 90vh;
+	padding-top: 180px;
+
+}
+.hero h1{
+	color: white;
+	vertical-align: center;
+	font-weight: bold;
+}
+
+h2{
+	/* font-family: 'Playfair Display', serif; */
+}
+h4{
+	font-weight: 600;
+}
+
+.soft-icon{
+	text-shadow: 7px 5px 5px gray;
+}
+
+
+.soft-btn{
+	border: 1px solid transparent;
+	border-radius: 25px;
+	background-color: blue;
+	color: #fff;
+	min-width: fit-content;
+	width: 10vw;
+	box-shadow:2px 2px 10px gray ;
+	font-size: 100%;
+	font-weight: bold;
+	
+}
+.soft-btn:hover{
+	border: 1px solid transparent;
+}
+
+
+.header{
+	box-shadow: 1px 1px 5px gray;
+}

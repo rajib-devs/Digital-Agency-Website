@@ -1,0 +1,284 @@
+/*Custom Coding*/
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;600&display=swap'); 
+.jost{
+	font-family: 'Jost', sans-serif; 
+	
+}
+.text-50{
+	font-size: 50px;
+}
+
+.text-35{
+	font-size: 35px;
+}
+
+
+.text-20{
+	font-size: 20px;
+}
+/*big featured products div */
+a.btn-dark a {
+	color:white;
+	background-color: blueviolet;
+	
+}
+a.btn-dark:hover {
+	background-color:blue  ;
+	
+	
+
+}
+#service_feature_gray {
+	
+	
+	
+	background: #eceff199;
+	
+	
+
+}
+
+.featured_ico {
+	/*text-align: center;*/
+
+
+}
+/*roud of icon */
+.feature_round {
+background-color: #eceff199;
+height: fit-content;
+width: fit-content;
+padding:2em;
+border-radius: 100%;
+
+
+}
+.feature_round_white {
+background-color: #fff;
+height: auto;
+width: fit-content;
+border-radius: 100%;
+
+
+}
+
+
+
+.featured_des {
+/*margin-top: 50px;*/
+}
+.freatured_des_item{
+margin-top: 50px;
+}
+
+/*.featured_des .fa, .fas {
+	font-size: 25px;
+}*/
+
+
+.know_more .btn {
+	border-radius: 0px;
+	
+}
+
+.featured_image{
+	float: right;
+}
+
+.featured_description_left{
+	float: left;
+}
+
+.bg-gray{
+background-color: #eceff199;
+
+}
+.contactForm{
+	border:1px solid transparent;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 5px #d1d1d1;
+}
+
+.contact-form-bg {
+	background-image: assets/img/ecommerce.jpg;
+	background-size:cover; 
+	background-repeat:no-repeat; 
+
+}
+
+.contactDetailIcon{
+border: 1px solid transparent;
+border-radius: 50px;
+background-color: #d1d1d1 !important;
+height: 50px;
+width: 50px; 
+
+}
+
+.custom-a{
+	color: black;
+	text-decoration: none;
+
+}
+
+.bg-orange{
+	background-color: orange;
+}
+
+.min-height-300{
+	min-height: 300px;
+}
+
+
+/* responsiveness */
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (max-width: 991px) {
+	.contactInfo{
+		
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		
+		
+	}
+	.contactForm{
+		border:1px solid transparent;
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	
+
+	}
+	.resContent{
+		order: 2;
+	 }
+
+	 .resImg{
+		order: 1;
+	 }
+	 
+ }
+
+ .btn-climax{
+	width: 40%;
+	border: 1px solid #d1d1d1 ;
+	padding: 5px;
+	font-size: 16px;
+ }
+ .soft-btn{
+	width: 100px;
+	transition: 300ms;
+ }
+
+ .soft-btn:hover {
+	transform: scale(1.1);
+	
+	
+ }
+
+ .form-control{
+	padding: 10px 20px;
+	border-radius: 25px;
+ }
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+	.resContent{
+		order: 2;
+	 }
+
+	 .resImg{
+		order: 1;
+	 }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+	.resContent{
+		order: 2;
+	 }
+
+	 .resImg{
+		order: 1;
+	 }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+	
+	.resContent{
+		order: 2;
+	 }
+
+	 .resImg{
+		order: 1;
+	 }
+	 
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+	.contactInfo{
+		border: 1px solid transparent;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		padding:25px;
+	}
+
+	
+	.contactForm{
+		border:1px solid transparent;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px ;
+		padding:25px;
+	}
+
+	.btn-climax{
+		width: 40%;
+		border: 1px solid #d1d1d1 ;
+		padding: 5px;
+		font-size: 16px;
+		font-size: 16px;
+		text-align: center;
+	 }
+ 
+ .resContent{
+	order: 1;
+ }
+
+ .resImg{
+	order: 2;
+ }
+ .soft-btn{
+	width: 10vw;
+ }
+}
+
+.gray_img{
+	filter:grayscale();
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	color : blue; 
+}
+h1 {
+	font-weight: 700px;
+}
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
+
+ .social-link{
+	font-size: 2em;
+	padding:0px 5px;
+ }
+
+ .scrolled-down{
+	transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+	transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
