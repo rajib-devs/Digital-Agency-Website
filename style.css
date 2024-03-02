@@ -20,32 +20,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
 	overflow-x: hidden;
 	margin: 0;
-	/* font-family: 'Playfair Display', serif; */
 	font-family: 'Poppins', sans-serif;
-	font-weight: 400;	
-}
-p{
-	font-family: 'Poppins', sans-serif;
-	font-weight:600;
-	color: darkslategray;	
-}
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
 
-.carousel-item-one {
-	background-image: assets/img/imgs.jpg;
-	background-position: fixed;		
-
-}	
-.slider {
-	/*background-image: assets/img/imgs.jpg;
-	background-position: fixed;		*/
-
-}	
-
-.navbar-brand{
-	background-image: assets/img/logo.gif;
-}
+ }
+ 
 .nav-link{
-	/* font-family: 'Times New Roman', Times, serif; */
+	
 	text-transform: uppercase;
 	font-weight: 600;
 	color: var(--bs-primary);
@@ -104,7 +87,6 @@ font-size: 50px;
 }
 
 .service_des p {
-	font-family: ;
 	line-height: normal;
 	font-weight: 500;
 	text-align: justify;
@@ -121,20 +103,11 @@ font-size: 50px;
 
 
 
-.our_services{
-	margin-top: 10px;
-	/*background-image: url(assets/img/service_bg.jpg);*/
-	background-repeat: none;
-	background-attachment: fixed;
-	background-size: cover;
-	/*/*#eceff1*/ ;*/
-	color: #000;
-}
+
 
 .blur {
-padding-top:50px ;
-	/*background: rgba(200, 200, 200, 0.25);*/
-	background: #eceff199 ;
+	padding-top:50px ;
+	background: #eceff1 ;
 }
 
 /*change heading after hovering icon*/
@@ -145,28 +118,25 @@ padding-top:50px ;
 
 .usp{
 	border: 1px solid transparent;
-	border-radius: 15px;
+	border-radius: 16px;
 	min-height: 350px;
 	box-shadow: 1px 1px 5px #d1d1d1;
 	background-color: white;
 	transition: 200ms;
 }
-.usp:hover .fas, .usp:hover p, .usp:hover .fab {
-	
-}
-
 
 .usp:hover{
-	box-shadow: 1px 1px 5px #d1d1d1;
+	box-shadow: 2px 2px 5px #d1d1d1;
 	background-color: #eceff199;
 	color: black;
-	transform: scale(1.2rem);
+	transform: scale(1.05);
+	cursor: pointer;;
 }
 
 
 .usp p{
 	
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 2; 		
 	padding: 5px !important;
 }

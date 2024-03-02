@@ -100,13 +100,6 @@ background-color: #eceff199;
 	box-shadow: 1px 1px 5px #d1d1d1;
 }
 
-.contact-form-bg {
-	background-image: assets/img/ecommerce.jpg;
-	background-size:cover; 
-	background-repeat:no-repeat; 
-
-}
-
 .contactDetailIcon{
 border: 1px solid transparent;
 border-radius: 50px;
@@ -257,15 +250,11 @@ width: 50px;
  }
 }
 
-.gray_img{
-	filter:grayscale();
-}
-
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	color : blue; 
 }
 h1 {
-	font-weight: 700px;
+	font-weight: 700;
 }
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -281,4 +270,14 @@ h1 {
   }
   .scrolled-up{
 	transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+
+  .responsive-img{
+	height: auto;
+	width: 100%;
+  }
+  .service-row-img{
+	height: auto;
+	width: 80%;
   }
